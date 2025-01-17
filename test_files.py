@@ -44,5 +44,4 @@ def test_read_and_check():
             second_row = csvreader[1]
             assert second_row[0] == 'BDCQ.SEA1AA'
             assert second_row[1] == '2011.06'
-            print(
-                f"Содержимое файла CSV проверено успешно. Значение в ячейке 1: '{second_row[0]}', значение в ячейке 2:{second_row[1]}'")
+            print(f"Содержимое файла CSV проверено успешно. Значение в ячейке 1: '{second_row[0]}', значение в ячейке 2:{second_row[1]}'")
